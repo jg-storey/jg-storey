@@ -130,7 +130,16 @@ img{
     border: 1px solid rgb(174, 216, 255); /* Remove borders */
     box-shadow: 0 2px 5px 0 rgb(0, 153, 255, 0.26),0 2px 10px 0 rgb(0, 153, 255, 0.22);  
   }
-  
+
+  .twocolumns{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(40ch, 1fr));
+  }
+
+  .column{
+    width:100%;
+  }
+
 
   .gallery{
     margin-left: auto;
